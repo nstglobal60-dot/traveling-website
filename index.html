@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelPro - Explore the World</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./traveling.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">TravelPro</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Explore the World with TravelPro</h1>
+            <p>Your adventure starts here</p>
+            <a href="#destinations" class="btn">Discover Destinations</a>
+        </div>
+    </section>
+
+    <!-- Destinations Carousel -->
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="carousel">
+            <button class="prev">&#10094;</button>
+            <div class="carousel-track">
+                <div class="card"><img src="./images/Paris image.png" alt="Paris"><h3>Paris</h3></div>
+                <div class="card"><img src="./images/Maldives image.png" alt="Maldives"><h3>Maldives</h3></div>
+                <div class="card"><img src="./images/New York image.jpeg" alt="New York"><h3>New York</h3></div>
+                <div class="card"><img src="./images/Tokyo image.png" alt="Tokyo"><h3>Tokyo</h3></div>
+                <div class="card"><img src="./images/Sydney image.jpeg" alt="Sydney"><h3>Sydney</h3></div>
+            </div>
+            <button class="next">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services fade-in">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">Flight Booking</div>
+            <div class="service-card">Hotel Booking</div>
+            <div class="service-card">Guided Tours</div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about fade-in">
+        <h2>About TravelPro</h2>
+        <p>TravelPro is your trusted partner for amazing travel experiences. We make planning your trips easy, fun, and memorable.</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TravelPro. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="./traveling.js"></script>
+</body>
+</html>
